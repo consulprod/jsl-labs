@@ -1,0 +1,3 @@
+root@php-training:/home/vagrant/Zend/workspaces/DefaultWorkspace/sandbox# php -r "echo 'the swoole version is :' . swoole_version();"
+the swoole version is :5.1.1 .... root@php-training:/home/vagrant/Zend/workspaces/DefaultWorkspace/sandbox# 
+
