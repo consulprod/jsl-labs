@@ -1,6 +1,6 @@
 #include <stdio.h>
-[] bubble_sort(char [], int);
-[] bubble_sort(char list[], int n) {
+void  bubble_sort(char [], int);
+void bubble_sort(char list[], int n) {
   int c, d, t, p;
   for (c = 0 ; c < n - 1; c++) {
     p = 0;
@@ -14,5 +14,4 @@
     }
     if (p == 0) break;
   }
-  return list;
 }
